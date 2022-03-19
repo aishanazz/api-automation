@@ -1,10 +1,10 @@
-package student.payload;
+package student.payload.auth;
 
 import com.google.gson.Gson;
 import student.pojos.requests.auth.GenerateOTPRequest;
 import student.utils.data.generator.DummyDataGenerator;
 
-public class StudentRequestPayloads {
+public class StudentAuthPayloads {
 
     protected Gson gson = new Gson();
 
