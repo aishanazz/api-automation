@@ -1,4 +1,4 @@
-package student.utils.data;
+package student.utils;
 
 import com.codoid.products.fillo.Connection;
 import com.codoid.products.fillo.Fillo;
