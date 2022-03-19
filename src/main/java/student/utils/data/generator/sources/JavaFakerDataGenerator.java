@@ -36,4 +36,10 @@ public class JavaFakerDataGenerator implements DummyDataGenerator {
     public String getRandomMobileOtp(int otpLength) {
         return Faker.instance().number().digits(otpLength);
     }
+
+    @Override
+    public String getGoogleIdToken() {
+        //TODO get from excel sheet
+        return "jhdajah";
+    }
 }

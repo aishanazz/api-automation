@@ -59,8 +59,8 @@ public class DataUtils {
 
 
     // Test Data file instance for student api.
-    static DataUtils student() {
-        String studentDatafilePath = System.getProperty("user.dir") + "/resources/student" + "TestData.xlsx";
+    public static DataUtils student() {
+        String studentDatafilePath = System.getProperty("user.dir") + "/resources/student/" + "StudentTestData.xlsx";
         return new DataUtils(studentDatafilePath);
     }
 }

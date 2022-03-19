@@ -11,6 +11,8 @@ public interface DummyDataGenerator {
 
     String getCountryCode();
 
+    String getGoogleIdToken();
+
     int getRandomIntInBetween(int min, int max);
 
     String getRandomMobileOtp(int otpLength);
@@ -18,6 +20,7 @@ public interface DummyDataGenerator {
 
     /**
      * Random data generator.
+     *
      * @return DummyDataGenerator
      */
     static DummyDataGenerator getInstance() {
