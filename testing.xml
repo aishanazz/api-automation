@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing All Test cases">
+    <test thread-count="1" name="Student API Automation Test">
+        <classes>
+            <class name="tests.student.auth.StudentAuthTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
