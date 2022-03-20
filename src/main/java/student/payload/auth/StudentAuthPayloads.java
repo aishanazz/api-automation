@@ -8,7 +8,7 @@ import student.pojos.requests.auth.LoginWithOTPRequest;
 import student.utils.data.generator.DummyDataGenerator;
 
 
-public class StudentAuthPayloads {
+public final class StudentAuthPayloads {
 
     public static DummyDataGenerator randomDataGenerator = DummyDataGenerator.getInstance();
 

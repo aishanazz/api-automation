@@ -8,7 +8,7 @@ import static org.testng.Assert.assertTrue;
 public class AssertActions {
 
     public void verifyStatusCode(Response response) {
-        assertTrue(String.valueOf(response.getStatusCode()).startsWith("20"), "value of status code is" + response.getStatusCode());
+        assertTrue(String.valueOf(response.getStatusCode()).startsWith("20"), "value of status code is " + response.getStatusCode());
     }
 
     public void verifyResponseBody(String actual, String expected, String description) {

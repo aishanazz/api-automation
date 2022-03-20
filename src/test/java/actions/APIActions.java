@@ -5,7 +5,7 @@ import io.restassured.response.Response;
 
 public class APIActions {
 
-    public <T> T getDataFromJsonPath(Response response, String jsonPath) {
+    public static <T> T getDataFromJsonPath(Response response, String jsonPath) {
         JsonPath jPath = response.jsonPath();
         return jPath.get(jsonPath);
     }
